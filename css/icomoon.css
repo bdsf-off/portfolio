@@ -303,6 +303,9 @@
 .icon-sad:before {
     content: "\e05c";
 }
+.icon-data1:before {
+    content: "\e904";
+  }
 .icon-facebook:before {
     content: "\e05d";
 }
@@ -3132,4 +3135,3 @@
 .icon-IcoMoon:before {
     content: "\eca7";
 }
-
