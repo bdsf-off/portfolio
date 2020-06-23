@@ -115,11 +115,6 @@ abbr[title] {
 // Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
 //
 
-b,
-strong {
-  font-weight: bold;
-}
-
 //
 // Address styling not present in Safari and Chrome.
 //
@@ -421,4 +416,9 @@ table {
 td,
 th {
   padding: 0;
+}
+
+b, strong {
+  font-size: 50px;
+  font-weight: bold;
 }

@@ -1,8 +1,6 @@
 $font-primary: 'Space Mono', Arial, serif;
 $font-secondary: 'Kaushan Script', cursive;
 
-
-
 // Overrides
 $grid-gutter-width: 40px !default; 
 $border-radius-base:  4px !default;
@@ -24,8 +22,6 @@ $brand-bg-dark: #2F3C4F;
 
 $input-border-focus:  $brand-primary !default;
 $form-group-margin-bottom:       30px !default;
-
-
 
 // Mixin
 @mixin translateX($translatex) {
@@ -99,9 +95,6 @@ $form-group-margin-bottom:       30px !default;
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
-
-
-
 /* =======================================================
 *
 * 	Template Style 
@@ -171,7 +164,6 @@ h1, h2, h3, h4, h5, h6, figure {
   color: $brand-white;
   background: $brand-primary;
 }
-
 
 #fh5co-header,
 .fh5co-cover {
@@ -255,6 +247,7 @@ h1, h2, h3, h4, h5, h6, figure {
 				}
 			}
 		}
+
 		h2 {
 			font-size: 20px;
 			line-height: 1.5;
@@ -293,14 +286,13 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-
 #fh5co-features {
 	background: $brand-primary;
 	h2 {
-		color: $brand-white;
+		color: #0d2435;
 	}
 	.services-padding{
-		padding: 7em 0;
+		padding: 1em 0;
 	}
 	.feature-left {
 		margin-bottom: 40px;
@@ -346,7 +338,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-
 #fh5co-about,
 #fh5co-resume,
 #fh5co-skills,
@@ -378,7 +369,6 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-
 
 .info{
 	margin: 0;
@@ -456,7 +446,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-
 .fh5co-heading {
 	margin-bottom: 5em;
 	&.fh5co-heading-sm {
@@ -481,7 +470,6 @@ h1, h2, h3, h4, h5, h6, figure {
 		letter-spacing: 2px;
 	}
 }
-
 
 // TIMELINE
 .timeline {
@@ -715,7 +703,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-
 // CHART
 .chart {
   	width: 160px;
@@ -838,7 +825,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-
 //PRICING
 
 // BLOG
@@ -886,7 +872,6 @@ h1, h2, h3, h4, h5, h6, figure {
 			display: inline-block;
 			margin-bottom: 20px;
 			font-size: 18px !important;
-			color: rgba($brand-black,.3);
 		}
 		.stuff{
 			margin: 0;
@@ -930,7 +915,6 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-
 
 #fh5co-consult{
 	@include flex();
@@ -976,11 +960,9 @@ h1, h2, h3, h4, h5, h6, figure {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: rgba(0, 0, 0, .1);
 		@include transition(.5s);
 	}
 }
-
 
 #fh5co-footer {
 	padding: 50px 0;
@@ -1044,7 +1026,6 @@ input[type="text"] {
 	margin-bottom: 30px;
 }
 
-
 // Map
 #map {
 	width: 100%;
@@ -1087,7 +1068,6 @@ input[type="text"] {
 		}
 	}	
 }
-
 
 // Buttons
 .btn {
