@@ -339,8 +339,15 @@ ul {
   border-radius: 50%;
 }
 
+.img-circle-project1{
+  padding-left: 110px;
+}
+
 #feature-copy i{
   color: #0d2435;
+}
+
+.project-description{
 }
 
 #fh5co-features .feature-left .icon {
