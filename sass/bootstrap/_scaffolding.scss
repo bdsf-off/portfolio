@@ -69,7 +69,12 @@ figure {
 // Images
 
 img {
+  width: 100%;
   vertical-align: middle;
+}
+
+.img-persona{
+  width: 100%;
 }
 
 // Responsive images (ensure images don't scale beyond their parents)
