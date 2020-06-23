@@ -371,6 +371,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .info{
+	color:red;
 	margin: 0;
 	padding: 0;
 	width: 90%;
@@ -400,6 +401,14 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
+
+.color {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background:#F6FAF5;
+	margin-right: 10px;
+  }
 
 .fh5co-social-icons {
 	margin: 0;

@@ -339,10 +339,6 @@ ul {
   border-radius: 50%;
 }
 
-.img-circle-project1{
-  padding-left: 110px;
-}
-
 #feature-copy i{
   color: #0d2435;
 }
@@ -482,6 +478,13 @@ ul {
 }
 .fh5co-social-icons li a i {
   font-size: 20px;
+}
+
+.information-title{
+  color: #0d2435;
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+
 }
 
 #fh5co-about .fh5co-social-icons {
@@ -1452,7 +1455,6 @@ a:hover, a:focus {
 }
 
 h1 {
-  color: white;
   text-align: center;
   margin-top: 4%;
   font-size: 412.5%;
@@ -1638,10 +1640,6 @@ h1 .logo {
 
 #about h2::after {
   border-bottom: 2px dashed #918D8D;
-}
-
-#about .info p {
-  line-height: 270%;
 }
 
 #about .signature {
@@ -1991,4 +1989,12 @@ h2 {
 .card-title{
   font-weight: bold;
   font-size: 50px;
+}
+
+.color {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background:#F6FAF5;
+  margin-right: 10px;
 }
