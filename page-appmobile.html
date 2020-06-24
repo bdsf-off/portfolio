@@ -53,12 +53,18 @@
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <![endif]-->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
     </head>
 
     <body>
 
-        <header id="fh5co-header" class="fh5co-cover" style="background-image:url(images/cover_bg_3.jpg);"
+        <header id="fh5co-header" class="fh5co-cover" style="background-image:url(images/projet1/hero.png);"
             data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
@@ -70,8 +76,9 @@
                             <div class="display-tc  animate-box" data-animate-effect="fadeIn">
                                 <h1><span>Grow'Up</span></h1>
                                 <h3><span>Projet Web - Design D'application mobile</span></h3>
-                                <p><br><a href="" class="btn btn-primary">Repo GitHub</a> <a href=""
-                                        class="btn btn-primary">Lien Direct</a></p>
+                                <p><br><a href="" class="btn btn-primary">Repo GitHub</a> <a
+                                        href="https://www.figma.com/file/pFDD6qAOP1PX2JotSgOj0M/Grow'up-Version-2?node-id=0%3A1"
+                                        class="btn btn-primary">Maqquette Figma</a></p>
                             </div>
                         </div>
                     </div>
@@ -118,15 +125,13 @@
                                     Urbaine, chaleureuse, lisible, texte long</span></li>
                             <li><span class="first-block">Choix Couleurs</span><span class="second-block">
                                     <div class="colors">
-                                        <div class="color C1"></div>
-                                        <div class="color C2"></div>
+                                        <div class="color color-1"></div>
+                                        <div class="color color-2"></div>
                                     </div>
                                 </span>
                             </li>
                         </ul>
 
-
-                        <p> <a href="" class="btn btn-primary">abc</a> <a href="" class="btn btn-primary"> abc </a> </p>
 
                     </div>
 
@@ -146,27 +151,26 @@
                 <h2 class="information-title"> <span>Maquettes haute fidélité</span> </h2>
 
                 <div class="col-md-3"> <a data-caption="Mockup Fonctionnalité: Encyclopédie des Nuisibles"
-                        href="images/projet1/Big-EncycloNuisibles.gif"><img class="img-responsive"
+                        href="images/projet1/Big-EncycloNuisibles.gif"><img class="img-responsive recettes"
                             src="images/projet1/small-suivi-perso.gif">Mockup
                         Fonctionnalité:Suivis Personalisé</a></div>
 
                 <div class="col-md-3"> <a data-caption="Mockup Fonctionnalité: Encyclopédie des Plantes"
-                        href="images/projet1/Big-EncycloPlantes.gif"><img class="img-responsive"
+                        href="images/projet1/Big-EncycloPlantes.gif"><img class="img-responsive recettes"
                             src="images/projet1/Small-EncycloPlantes.gif">Mockup
                         Fonctionnalité: Encyclopédie des Plantes</a></div>
 
                 <div class="col-md-3"> <a data-caption="Mockup Fonctionnalité: Encyclopédie des Nuisibles"
-                        href="images/projet1/Big-EncycloNuisibles.gif"><img class="img-responsive"
+                        href="images/projet1/Big-EncycloNuisibles.gif"><img class="img-responsive recettes"
                             src="images/projet1/small-EncycloNuisibles.gif">Mockup
                         Fonctionnalité: Encyclopédie des Nuisibles</a></div>
 
                 <div class="col-md-3"> <a data-caption="Mockup Fonctionnalité: Encyclopédie des Nuisibles"
-                        href="images/projet1/Big-EncycloNuisibles.gif"><img class="img-responsive"
+                        href="images/projet1/Big-EncycloNuisibles.gif"><img class="img-responsive recette"
                             src="images/projet1/small-recettes.gif">Mockup
                         Fonctionnalité: Recettes</a></div>
             </div>
         </div>
-
         <!-- fin maquettes -->
 
 
@@ -177,37 +181,44 @@
 
             <!-- Thomas -->
             <div class="row persona1">
+
+                <p> Voici des exemples de personas d’utilisateurs pouvant être intéressés par l’application.
+                    <br> C’est la représentation fictive mais non-abstraite de l’utilisateur idéal.
+                </p>
+
                 <div class="col-md-6">
-                    <img src="images/projet1/PERSONA-Thomas.png" class="img-persona img-responsive">
+
+                    <a data-fancybox="gallery" href="images/projet1/PERSONA-Thomas.png"><img
+                            src="images/projet1/PERSONA-Thomas.png" class="img-persona img-responsive">
+                    </a>
                 </div>
 
                 <div class="col-md-6">
-                    <p> <strong>Grow’up</strong>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>
+                        Pour notre premier utilisateur, c'est un jeune étudiant débutant en jardinnerie qui pratique
+                        pour ses besoins personnel.
                     </p>
                 </div>
             </div>
 
 
             <!-- Evelynn -->
-            <div class="row">
+            <div class="row persona2">
 
                 <div class="col-md-6">
-                    <p> <strong>Grow’up</strong>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p> Mais <strong>Grow'Up </strong> pourrait aussi s’adresser à des profils expérimentés voire
+                        professionnels.
+                        Pour illustrer nous avons également créer un personna d'une personne bien plus expérimenté que
+                        le premier, mai que le besoin de l'application est quand même important.
                     </p>
                 </div>
 
                 <div class="col-md-6">
-                    <img src="images/projet1/PERSONA-Evelynn.png" class="img-persona img-responsive">
+
+                    <a data-fancybox="gallery" href="images/projet1/PERSONA-Evelynn.png"><img
+                            src="images/projet1/PERSONA-Evelynn.png" class="img-persona img-responsive">
+                    </a>
+
                 </div>
             </div>
         </div>
@@ -220,7 +231,7 @@
             <h2 class="information-title"> <span>User-Flow</span> </h2>
 
             <!-- Thomas -->
-            <div class="row persona1">
+            <div class="row">
                 <div class="col-md-4">
                     <img src="images/projet1/userflow1.jpg" class="img-responsive userflow1">
                 </div>
@@ -307,8 +318,6 @@
 
         <!-- Main -->
         <script src="js/main.js"></script>
-
-        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 
         <i class="fas fa-user"></i> <!-- uses solid style -->

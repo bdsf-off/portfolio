@@ -176,7 +176,7 @@ margin-top: 125px;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  height: 600px;
+  height: 475px;
   width: 100%;
 }
 #fh5co-header .overlay,
@@ -352,6 +352,8 @@ margin-top: 125px;
 }
 
 .project-description{
+  margin-left: 15px;
+  width: 48%;
 }
 
 #fh5co-features .feature-left .icon {
@@ -416,6 +418,9 @@ margin-top: 125px;
     padding: 3em 0;
   }
 }
+#fh5co-resume, #portfolio  h2{
+  font-family: "Kaushan Script", cursive;
+}
 
 #fh5co-started {
   border-bottom: none;
@@ -467,6 +472,17 @@ margin-top: 125px;
 margin-bottom: 50px;
 }
 
+.persona2 strong{
+color: #8BCC7A;
+  }
+
+.recettes{
+  width: 247px;
+}
+.recette{
+  width: 300px;
+}
+
 .colors{
   display: flex;
 }
@@ -476,19 +492,14 @@ margin-bottom: 50px;
   height: 60px;
   border-radius: 30px;
   margin-right: 5px;
-}
-.color{
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-  margin-right: 5px;
+  border: 1px solid grey;
 }
 
-.C1{
+.color-1{
   background-color: #F6FAF5;
 }
 
-.C2{
+.color-2{
   background-color: #8BCC7A;
 }
 
@@ -869,6 +880,10 @@ margin-bottom: 50px;
   position: absolute;
   left: 0;
   top: 0;
+}
+
+strong{
+  color: #8BCC7A;
 }
 
 .work {
@@ -1838,7 +1853,7 @@ overflow: auto;
 }
 
 #portfolio section {
-  width: 50%;
+  width: 48%;
   float: left;
 }
 
