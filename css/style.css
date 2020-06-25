@@ -189,7 +189,6 @@ width: 50px;
 .fh5co-cover {
   background-color: transparent;
   background-size: cover;
-  background-attachment: fixed;
   position: relative;
   height: 475px;
   width: 100%;
