@@ -322,6 +322,10 @@ width: 50px;
   border-radius: 50%;
 }
 
+.display-tc{
+
+}
+
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
   color: #fff;
@@ -1205,6 +1209,7 @@ strong{
 }
 .fh5co-video .overlay {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -1644,14 +1649,11 @@ h1 .logo {
 #home nav {
   margin: 0 auto;
   width: 700px;
+  background-color: tomato;
 }
 
 #home nav ul {
   overflow: hidden;
-}
-
-#home nav ul li {
-  width: 25%;
 }
 
 #home nav a {
@@ -1675,6 +1677,8 @@ h1 .logo {
   max-width: 700px;
   margin: 0 auto;
 }
+
+
 
 #about::before {
   height: 0px;
