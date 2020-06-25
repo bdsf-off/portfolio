@@ -174,11 +174,18 @@ margin-top: 125px;
 width: 50px;
 }
 
-.PrincipalesFonctionalités-title{
-  font-family: "Kaushan Script", cursive;
- color:  #8BCC7A;
- margin-bottom: 35px;
+.PrincipalesFonctionalités-title-landing{
+  font-family: "Space Mono", Arial, serif;
+  font-size: 15px;
+  text-align: center;
+ color:  #0d2435;
  margin-left: 10px;
+}
+
+.PrincipalesFonctionalités-title{
+  color:  #8BCC7A;
+  margin-bottom: 35px;
+  margin-left: 10px;
 }
 
 .Fonctionalités-row{
@@ -485,6 +492,8 @@ width: 50px;
 .badge-size{
   font-size: 18px;
   font-weight: normal;
+  padding: 5px;
+  padding-right: 5px;
 }
 
 .info li .second-block {
