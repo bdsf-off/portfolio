@@ -170,6 +170,21 @@ margin-top: 125px;
   margin-bottom: 20px;
 }
 
+.action-imediate{
+width: 50px;
+}
+
+.PrincipalesFonctionalités-title{
+  font-family: "Kaushan Script", cursive;
+ color:  #8BCC7A;
+ margin-bottom: 35px;
+ margin-left: 10px;
+}
+
+.Fonctionalités-row{
+  margin-bottom: 75px;
+}
+
 #fh5co-header,
 .fh5co-cover {
   background-color: transparent;
@@ -347,8 +362,11 @@ margin-top: 125px;
   border-radius: 50%;
 }
 
-#feature-copy i{
+#feature-copy{
   color: #0d2435;
+}
+.comp{
+  font-family: "Space Mono", Arial, serif;
 }
 
 .project-description{
@@ -434,6 +452,10 @@ margin-top: 125px;
   color: #fff !important;
 }
 
+.link-project a{
+  color: #90C468;
+}
+
 .info {
   margin: 0;
   padding: 0;
@@ -499,8 +521,16 @@ color: #8BCC7A;
   background-color: #F6FAF5;
 }
 
+.color-4{
+  background-color: #008E8F;
+}
+
 .color-2{
   background-color: #8BCC7A;
+}
+
+.color-3{
+  background-color: white;
 }
 
 .fh5co-social-icons {
