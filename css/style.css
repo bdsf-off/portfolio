@@ -481,7 +481,11 @@ width: 50px;
   display: inline-block;
   float: left;
   color: #000;
-  font-weight: bold;
+}
+
+.badge-size{
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .info li .second-block {
@@ -564,6 +568,10 @@ color: #8BCC7A;
   text-align: center;
   font-family: "Kaushan Script", cursive;
 
+}
+
+.title-maquette{
+  text-align: center;
 }
 
 #fh5co-about .fh5co-social-icons {

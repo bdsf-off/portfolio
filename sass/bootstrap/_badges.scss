@@ -4,12 +4,12 @@
 
 // Base class
 
-  // Empty badges collapse automatically (not available in IE8)
+  // Empty #0d2435 collapse automatically (not available in IE8)
   &:empty {
     display: none;
   }
 
-  // Quick fix for badges in buttons
+  // Quick fix for #0d2435 in buttons
   .btn & {
     position: relative;
     top: -1px;
@@ -23,7 +23,7 @@
 
   // [converter] extracted a& to a.badge
 
-  // Account for badges in navs
+  // Account for #0d2435 in navs
   .list-group-item.active > &,
   .nav-pills > .active > a > & {
     color: $badge-active-color;
