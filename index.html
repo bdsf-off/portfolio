@@ -73,6 +73,25 @@
 
 			<div class="container">
 				<div class="row">
+					<div class="col-md-12">
+						<nav class="navbar navbar-default">
+							<div class="nav-bar container-fluid">
+
+
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav ">
+										<li class="active"><a href="#home">Header</a></li>
+										<li><a href="#about">A propos de moi</a></li>
+										<li><a href="#experience">Mes Expériences</a></li>
+										<li><a href="#fh5co-features">Mes Compétences</a></li>
+										<li><a href="#fh5co-features">Projets</a></li>
+										<li><a href="#fh5co-features">Contact</a></li>
+									</ul>
+								</div><!-- /.navbar-collapse -->
+							</div><!-- /.container-fluid -->
+						</nav>
+					</div>
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
 							<div class="display-tc  animate-box" data-animate-effect="fadeIn">
@@ -80,19 +99,23 @@
 								<!-- LANDING PAGE -->
 								<section id="home">
 									<!-- OVERLAY -->
-									<div class="overlay">
-
-										<nav role="navigation">
-											<ul class="vertical-list">
-												<li><a href="#home">Header</a></li>
-												<li><a href="#about">A propos de moi</a></li>
-												<li><a href="experience">Mes Expériences</a></li>
-												<li><a href="#fh5co-features">Mes Compétences</a></li>
-											</ul>
-										</nav>
+									<div class="div-overlay">
 
 
-										<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+
+										<!-- Brand and toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+												data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<div class="profile-thumb" style="background: url(images/user-3.jpg);">
+										</div>
 										<h1><span>Badis Essid</span></h1>
 										<h3><span>Developpeur Web Full-stack / Junior</span></h3>
 										<p>
@@ -105,7 +128,10 @@
 														class="icon icon-instagram"></i></a></li>
 										</ul>
 										</p>
+
+
 									</div>
+
 							</div>
 						</div>
 					</div>
@@ -114,7 +140,7 @@
 
 		</header>
 
-		<!-- 
+		<!--
 
 										<nav role="navigation">
 											<ul class="vertical-list">
@@ -424,150 +450,267 @@
 
 				<div class="container">
 
-
-					<section class="project-description">
-						<!-- OVERLAY -->
-						<a href="work1.html">
-							<div class="overlay">
-								<!-- DESCRIPTION -->
-								<div class="description">
-									<p>
-										Grow’up est un réseau social qui permets à ses utilisateurs, à savoir des
-										jardiniers amateurs et passionnés, de partager des informations et astuces,
-										s’informer ou encore partager leurs créations culinaires à partir des
-										légumes de
-										leurs potager tout en bénéficiant d'un suivi personnalisé du potager
-
-									</p>
-
-									<h6><span class="glyphicon glyphicon-cog"></span></h6>
-									<ul class="tools vertical-list">
-										<li>Figma</li>
-										<li>UI/UX</li>
-									</ul>
-
-								</div>
-								<!-- END OF DESCRIPTION -->
-
-								<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Grow'Up <br>
-									DESIGN
-									d'application mobile </h4>
-								<img src="images/illustration-work1.png"
-									alt="Editorial Monitoring Automated Excel Screenshot">
-
-							</div>
-							<!-- END OF OVERLAY -->
-						</a>
-
-					</section>
-					<!-- END OF SECTION -->
+					<div class="row">
 
 
+						<!-- WORK 1 -->
+						<div class="col-md-4">
+							<article class="project-card">
+								<a href="work1.html">
+									<header>
+										<!-- Titre -->
+										<h4>
+											<span class="glyphicon glyphicon-hand-up"></span>Grow'Up <br>
+											DESIGN
+											d'application mobile </h4>
+										<!-- Tags -->
+										<ul class="tools">
+											<span class="badge badge-light">Figma</span>
+											<span class="badge badge-light">UI/UX</span>
+										</ul>
+										<!-- Image du projet -->
+										<img src="images/illustration-work1.png" alt="Décrire l'image"
+											class="img-responsive">
 
-					<section class="project-description">
-						<!-- OVERLAY -->
-						<a href="work2.html">
-							<div class="overlay">
-								<!-- DESCRIPTION -->
-								<div class="description">
-									<p>
-										Designed using the Selenium library - to fully automate the task of scraping the
-										EGi
-										news website. I then made use of the COM Excel object to create a spreadsheet
-										and
-										paste the headlines from the scraping into automatically created tabs revelant
-										to
-										the news sectors.
-									</p>
+									</header>
+									<div class="project-body">
+										<!-- Contenu -->
+										<ul>
+											<li>-Design de Wireframes</li>
+											<li>-Prototypage d'App</li>
+											<li>-Rédaction du dossier technique</li>
+										</ul>
+									</div>
+								</a>
+							</article>
+						</div>
 
-									<h6><span class="glyphicon glyphicon-cog"></span></h6>
-									<ul class="tools vertical-list">
-										<li>WordPress</li>
-										<li>BootStrap</li>
-										<li>PHP</li>
-									</ul>
-								</div>
-								<!-- END OF DESCRIPTION -->
+						<!-- WORK 2 -->
+						<div class="col-md-4">
+							<article class="project-card">
+								<a href="work2.html">
+									<header>
+										<!-- Titre -->
+										<h4>
+											<span class="glyphicon glyphicon-hand-up"></span>Grow'Up <br> Landing Page
+										</h4>
+										<!-- Tags -->
+										<ul class="tools">
+											<span class="badge badge-light">WordPress</span>
+											<span class="badge badge-light">BootStrap</span>
+											<span class="badge badge-light">PHP</span>
+										</ul>
+										<!-- Image du projet -->
+										<img src="images/illustration-work2.png" alt="Header landing"
+											class="img-responsive">
 
-								<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Landing Page
-									WordPress
-									<br> Création d'une l'anding page d’une application
-									sur WordPress</h4>
-								<img src="images/illustration-work2.png"
-									alt="Editorial Monitoring Automated Excel Screenshot">
+									</header>
+									<div class="project-body">
+										<!-- Contenu -->
+										<ul>
+											<li>-Design de Wireframes</li>
+											<li>-Prototypage d'App</li>
+											<li>-Rédaction du dossier technique</li>
+										</ul>
+									</div>
+								</a>
+							</article>
+						</div>
 
-							</div>
-							<!-- END OF OVERLAY -->
-					</section>
-					<!-- END OF SECTION -->
+						<!-- WORK 3 -->
+						<div class="col-md-4">
+							<article class="project-card">
+								<a href="work6.html">
+									<header>
+										<!-- Titre -->
+										<h4>
+											<span class="glyphicon glyphicon-hand-up"></span>Stage chez Someo<br>
+											Refonte d'un site-web</h4>
+										<!-- Tags -->
+										<ul class="tools">
+											<span class="badge badge-light">WordPress</span>
+											<span class="badge badge-light">Figma</span>
+										</ul>
+										<!-- Image du projet -->
+										<img src="images/visuel-someo.png" alt="Décrire l'image" class="img-responsive">
 
-
-
-
-					<!-- SECTION -->
-					<section class="project-description">
-						<!-- OVERLAY -->
-						<a href="work3.html">
-							<div class="overlay">
-								<!-- DESCRIPTION -->
-								<div class="description">
-									<p>
-										Written using pure JavaScript and the STAND4S Network's quote API, users can do
-										a
-										general search for quotes, get a random quote or can search for quotes from
-										particular authors. Twitter social integration is then included to allow them to
-										tweet it.
-									</p>
-
-									<h6><span class="glyphicon glyphicon-cog"></span></h6>
-									<ul class="tools vertical-list">
-										<li>HTML5</li>
-										<li>CSS3</li>
-										<li>JavaScript</li>
-										<li>BootStrap</li>
-									</ul>
-								</div>
-								<!-- END OF DESCRIPTION -->
-
-								<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>The Good
-									Letter</h4>
-								<img src="images/illustration-work5.png" alt="Quote Machine in Action">
-							</div>
-							<!-- END OF OVERLAY -->
-					</section>
-					<!-- END OF SECTION -->
+									</header>
+									<div class="project-body">
+										<!-- Contenu -->
+										<ul>
+											<li>-Design de Wireframes sur Figma</li>
+											<li>-Architecture du site</li>
+											<li>-Refonte via le page builder Divi sur Wordpress</li>
+										</ul>
+									</div>
+								</a>
+							</article>
+						</div>
 
 
 
+						<!-- WORK 4 -->
+						<div class="col-md-4">
+							<article class="project-card">
+								<a href="work3.html">
+									<header>
+										<!-- Titre -->
+										<h4>
+											<span class="glyphicon glyphicon-hand-up"></span> Open Museum <br> Projet
+											Angular</h4>
+										<!-- Tags -->
+										<ul class="tools">
+											<span class="badge badge-light">Angular</span>
+											<span class="badge badge-light">MongoDB</span>
+											<span class="badge badge-light">Node.Js</span>
+										</ul>
+										<!-- Image du projet -->
+										<img src="images/illustration-work3.png" alt="Décrire l'image"
+											class="img-responsive">
 
-					<!-- COLUMN 3 -->
-					<!-- SECTION -->
-					<section class="project-description">
-						<!-- OVERLAY -->
-						<a href="work4.html">
-							<div class="overlay">
-								<!-- DESCRIPTION -->
-								<div class="description">
-									<p>
-										Was achieved using the Google Maps API to geocode user search terms, data was
-										then
-										retrieved from the Forecast IO API. Users can click on any day in the seven day
-										cycle to get a quick summary on the predicated forecast.
-									</p>
+									</header>
+									<div class="project-body">
+										<!-- Contenu -->
+										<ul>
+											<li>-Design de Wireframes</li>
+											<li>-Prototypage d'App</li>
+											<li>-Rédaction du dossier technique</li>
+										</ul>
+									</div>
+								</a>
+							</article>
+						</div>
 
-									<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-									<ul class="tools vertical-list">
-										<li>BootStrap</li>
-									</ul>
-								</div>
-								<!-- END OF DESCRIPTION -->
-								<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Affiche du film
-									<br> BATMAN & ROBIN</h4>
-								<img src="images/visuel.PNG" alt="Editorial Monitoring Automated Excel Screenshot">
-							</div>
-							<!-- END OF OVERLAY -->
-					</section>
-					<!-- END OF SECTION -->
+						<!-- WORK 5 -->
+						<div class="col-md-4">
+							<article class="project-card">
+								<a href="work2.html">
+									<header>
+										<!-- Titre -->
+										<h4>
+											<span class="glyphicon glyphicon-hand-up"></span>Grow'Up <br>
+											Acceuil site E-Commerce
+										</h4>
+										<!-- Tags -->
+										<ul class="tools">
+											<span class="badge badge-light">HTML5</span>
+											<span class="badge badge-light">CSS3</span>
+										</ul>
+										<!-- Image du projet -->
+										<img src="images/illustration-work2.png" alt="Header landing"
+											class="img-responsive">
+
+									</header>
+									<div class="project-body">
+										<!-- Contenu -->
+										<ul>
+											<li>-Design de Wireframes</li>
+											<li>-Prototypage d'App</li>
+											<li>-Rédaction du dossier technique</li>
+										</ul>
+									</div>
+								</a>
+							</article>
+						</div>
+
+						<!-- WORK 6 -->
+						<div class="col-md-4">
+							<article class="project-card">
+								<a href="work6.html">
+									<header>
+										<!-- Titre -->
+										<h4>
+											<span class="glyphicon glyphicon-hand-up"></span>Pop en Scène <br>
+											Projet Php </h4>
+										<!-- Tags -->
+										<ul class="tools">
+											<span class="badge badge-light">PHP</span>
+											<span class="badge badge-light">PDO</span>
+											<span class="badge badge-light">BootStrap</span>
+											<span class="badge badge-light">HTML &amp; CSS</span>
+											<!-- Image du projet -->
+											<img src="images/illustration-work6.png" alt="Décrire l'image"
+												class="img-responsive">
+									</header>
+									<div class="project-body">
+										<!-- Contenu -->
+										<ul>
+											<li>-Design de Wireframes</li>
+											<li>-Prototypage d'App</li>
+											<li>-Rédaction du dossier technique</li>
+										</ul>
+									</div>
+								</a>
+							</article>
+						</div>
+
+						<!-- WORK 7 -->
+						<div class="col-md-4">
+							<article class="project-card">
+								<a href="work3.html">
+									<header>
+										<!-- Titre -->
+										<h4>
+											<span class="glyphicon glyphicon-hand-up"></span>Game Project <br> The Good
+											Letter</h4>
+										<!-- Tags -->
+										<ul class="tools">
+											<span class="badge badge-light">HTML5</span>
+											<span class="badge badge-light">CSS3</span>
+											<span class="badge badge-light">JavaScript</span>
+											<span class="badge badge-light">BootStrap</span>
+										</ul>
+										<!-- Image du projet -->
+										<img src="images/illustration-work3.png" alt="Décrire l'image"
+											class="img-responsive">
+
+									</header>
+									<div class="project-body">
+										<!-- Contenu -->
+										<ul>
+											<li>-Design de Wireframes</li>
+											<li>-Prototypage d'App</li>
+											<li>-Rédaction du dossier technique</li>
+										</ul>
+									</div>
+								</a>
+							</article>
+						</div>
+
+						<!-- WORK 8 -->
+						<div class="col-md-4">
+							<article class="project-card">
+								<a href="work6.html">
+									<header>
+										<!-- Titre -->
+										<h4>
+											<span class="glyphicon glyphicon-hand-up"></span>Affiche du film
+											<br> BATMAN & ROBIN</h4>
+										<!-- Tags -->
+										<ul class="tools">
+											<span class="badge badge-light">HTML5</span>
+											<span class="badge badge-light">CSS3</span>
+										</ul>
+										<!-- Image du projet -->
+										<img src="images/visuel.PNG" alt="Décrire l'image" class="img-responsive">
+
+									</header>
+									<div class="project-body">
+										<!-- Contenu -->
+										<ul>
+											<li>-Design de Wireframes</li>
+											<li>-Prototypage d'App</li>
+											<li>-Rédaction du dossier technique</li>
+										</ul>
+									</div>
+								</a>
+							</article>
+						</div>
+
+					</div>
+
+
+
 
 
 
@@ -606,106 +749,8 @@
 
 
 
-					<!-- SECTION -->
-					<section class="project-description">
-						<!-- OVERLAY -->
-						<div class="overlay">
-							<!-- DESCRIPTION -->
-							<div class="description">
-								<p>
-									Created using a mixture of pure JavaScript and JQuery, users are challenged to
-									remember a sequence of steps based on the popular memory game Simon Says. Users
-									also
-									have the ability to swap between the normal Simon Says with default sounds and
-									also
-									the Animal Simon Says with fitting animal effects.
-								</p>
-
-								<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-								<ul class="tools vertical-list">
-									<li>JavaScript</li>
-									<li>JQuery</li>
-									<li>Less</li>
-									<li>Font Awesome</li>
-								</ul>
-							</div>
-							<!-- END OF DESCRIPTION -->
-
-							<img src="https://res.cloudinary.com/dj7k0lade/image/upload/v1526688912/codepen/portfolio/simon_says.png"
-								alt="Simon Says Game">
-							<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Simon Says Animals
-							</h4>
-						</div>
-						<!-- END OF OVERLAY -->
-					</section>
-					<!-- END OF SECTION -->
 
 
-
-					<!-- COLUMN 1 -->
-					<!-- SECTION -->
-					<section class="project-description">
-						<!-- OVERLAY -->
-						<div class="overlay">
-							<!-- DESCRIPTION -->
-							<div class="description">
-								<p>
-									Made with a combination of JQuery &amp; Bootstrap. Players are free to choose
-									whether they wish to play as X or O. They are then pitted against the Computer
-									who
-									throughout the game makes varying comments towards the player.
-								</p>
-
-								<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-								<ul class="tools vertical-list">
-									<li>JQuery</li>
-									<li>Bootstrap (Modal)</li>
-									<li>HTML &amp; CSS</li>
-								</ul>
-							</div>
-							<!-- END OF DESCRIPTION -->
-
-							<img src="https://res.cloudinary.com/dj7k0lade/image/upload/v1526688951/codepen/portfolio/tictactoe.png"
-								alt="Tic Tac Toe Screenshot">
-							<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Tic Tac Toe</h4>
-						</div>
-						<!-- END OF OVERLAY -->
-					</section>
-					<!-- END OF SECTION -->
-
-
-
-					<!-- COLUMN 2 -->
-					<!-- SECTION -->
-					<section class="project-description">
-						<!-- OVERLAY -->
-						<div class="overlay">
-							<!-- DESCRIPTION -->
-							<div class="description">
-								<p>
-									A real time Chat application built using the MeteorJS framework working
-									alongside a
-									MongoDB database. The App was fully tested to work on the Android Platform via
-									MeteorJS' support for Cordova.
-								</p>
-
-								<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-								<ul class="tools vertical-list">
-									<li>MeteorJS</li>
-									<li>JavaScript</li>
-									<li>MongoDB</li>
-									<li>Stylus</li>
-								</ul>
-							</div>
-							<!-- END OF DESCRIPTION -->
-
-							<img src="https://res.cloudinary.com/dj7k0lade/image/upload/v1526688983/codepen/portfolio/chatter_box.png"
-								alt="Chatterbox ">
-							<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Chatterbox</h4>
-						</div>
-						<!-- END OF OVERLAY -->
-					</section>
-					<!-- END OF SECTION -->
 				</div>
 
 			</section>
