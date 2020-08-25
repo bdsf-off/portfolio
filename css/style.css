@@ -414,7 +414,7 @@ width: 50px;
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
 }
-#fh5co-features .feature-left h3 {
+#fh5co-features .feature-left h4 {
   font-size: 24px;
   font-weight: 400;
   color: #fff;
@@ -1453,7 +1453,7 @@ h1 .logo {
   width: 100%;
   background-size: cover;
 }
-.navbar-default{ 
+.navbar-default{
   text-align: center;
   background-color: rgba(4,14,22,.83);
 }
@@ -1915,7 +1915,7 @@ h2 {
   #about img {
       display: block;
       margin: 0 auto;
-      width: 30%;
+      width: 115%;
   }
 
   #about .info {
@@ -1955,6 +1955,26 @@ h2 {
 p .card-text{
   font-size: 50px;
 
+}
+
+
+#fh5co-features h3 {
+f nt-size: 170%;
+font-family: "Kaushan Script", cursive;
+color: #0d2435;
+}
+
+#fh5co-features h2 {
+	    font-size: 240%;
+}
+.moncv{
+  margin-left: 40px;
+  margin-bottom: 0px
+}
+
+.feature-copy{
+  margin-bottom: 15px;
+  margin: 0 auto;
 }
 
 .card-subtitle{
@@ -2013,7 +2033,7 @@ $bgl_c: #DCEDC8
     border-left-color: $bg_cl
     border-width: 13px
     margin-top: -13px
-    
+
 .timeline-right .timeline-arrow
   left: 0
   &:after
@@ -2024,7 +2044,7 @@ $bgl_c: #DCEDC8
   border-color: rgba(255, 255, 255, 0)
   border-right-color: $bg_cl
   margin-left: -26px
-  
+
 .timeline-circle
   position: absolute
   right: -66px
