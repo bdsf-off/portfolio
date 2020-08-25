@@ -594,6 +594,12 @@ color: #8BCC7A;
 
 }
 
+#fh5co-features h3 {
+f nt-size: 170%;
+font-family: "Kaushan Script", cursive;
+color: #0d2435;
+}
+
 .title-maquette{
   text-align: center;
 }
@@ -1956,7 +1962,13 @@ p .card-text{
   font-size: 50px;
 
 }
+.presentation{
+  text-align:left;
+}
 
+.feature-copy{
+  padding-bottom: 55px;
+}
 
 #fh5co-features h3 {
 f nt-size: 170%;
