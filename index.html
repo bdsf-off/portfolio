@@ -55,6 +55,8 @@
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/5bb1d77498.js" crossorigin="anonymous"></script>
+	
 
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
@@ -74,28 +76,34 @@
 
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<nav class="navbar navbar-default">
-							<div class="nav-bar container-fluid">
 
-
-								<!-- Collect the nav links, forms, and other content for toggling -->
-								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-									<ul class="nav navbar-nav ">
-										<li class="active"><a href="#home">Header</a></li>
-										<li><a href="#about">A propos de moi</a></li>
-										<li><a href="#experience">Mes Expériences</a></li>
-										<li><a href="#fh5co-features">Mes Compétences</a></li>
-										<li><a href="#fh5co-features">Projets</a></li>
-										<li><a href="#fh5co-features">Contact</a></li>
-									</ul>
-								</div><!-- /.navbar-collapse -->
-							</div><!-- /.container-fluid -->
-						</nav>
-					</div>
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
 							<div class="display-tc  animate-box" data-animate-effect="fadeIn">
+
+
+
+								<nav class="navbar" id="#home">
+								  <div class="container-fluid">
+								    <div class="navbar-header">
+								      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								        <span class="icon-bar"></span>
+								        <span class="icon-bar"></span>
+								        <span class="icon-bar"></span>
+								      </button>
+								    </div>
+								    <div class="collapse navbar-collapse" id="myNavbar">
+								    <ul class="nav navbar-nav navbar-right">
+								      <li class="active"><a href="#home">Home</a></li>
+								      <li><a href="#about">A propos</a></li>
+								      <li><a href="#competence">Mes Compétences</a></li>
+								      <li><a href="#Portfolio">Portfolio</a></li>
+											 <li><a href="#Contact">Contact</a></li>
+								    </ul>
+								    </div>
+								  </div>
+								</nav>
+
 
 								<!-- LANDING PAGE -->
 								<section id="home">
@@ -183,7 +191,7 @@
 					<div class="services-padding">
 						<div class="row animate-box">
 							<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-								<h2 class="Competences-bigtitle" >Mes Compétences</h2>
+								<h2 id="competence" class="Competences-bigtitle" >Mes Compétences</h2>
 							</div>
 						</div>
 						<div class="row">
@@ -289,7 +297,7 @@
 
 
 		<!-- CONTAINER -->
-		<div class="container">
+		<div id="Portfolio" class="container">
 			<h2>some of my work...</h2>
 		</div>
 		<!-- END OF CONTAINER -->
@@ -563,22 +571,35 @@
 	<!-- END OF PORTFOLIO -->
 
 
-
-	<div id="fh5co-footer">
+	<!-- Footer -->
+	<footer class="mainfooter" role="contentinfo">
+		<div class="footer-middle">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a
-							href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a
-							href="http://unsplash.com" target="_blank">Unsplash</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
+		  <div class="pb-5 row">
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
-	</div>
+
+			
+			  <div class="footertop col-md-12">
+				  <h4 class=footer-heading>Restons en contact !</h4>
+				  <ul class="social-network social-circle">
+
+
+					<li><a href="mailto:essid.badis.pro[at]gmail.com" class="icoLinkedin" title="Send Mail"><i class="fas fa-envelope"></i></i></a></li>
+				   <li><a href="https://github.com/bdsf-off" class="icoFacebook" title="GitHub"><i class="fab fa-github"></i></i></a></li>
+				   <li><a href="https://www.linkedin.com/in/badis-essid/" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+				  </ul>				
+			  </div>
+		  </div>
+
+	  
+	  
+		</div>
+		</div>
+	  </footer>
+	<!-- Footer -->
+
+
+
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -600,12 +621,6 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
-
-	<i class="fas fa-user"></i> <!-- uses solid style -->
-	<i class="far fa-user"></i> <!-- uses regular style -->
-	<i class="fal fa-user"></i> <!-- uses light style -->
-	<!--brand icon-->
-	<i class="fab fa-github-square"></i> <!-- uses brands style -->
 </body>
 
 </html>
